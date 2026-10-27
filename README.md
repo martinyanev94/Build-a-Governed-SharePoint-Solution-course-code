@@ -1,0 +1,2 @@
+# Build-a-Governed-SharePoint-Solution-course-code
+Learn how to build a governed SharePoint Online solution that organizes content, controls access, automates work, and connects with Teams and Viva Connections. This practical course shows how to turn SharePoint requirements into runnable prototypes using Power Platform, SharePoint Framework, Microsoft Graph, and PnP tooling. You’ll learn how to: • 
