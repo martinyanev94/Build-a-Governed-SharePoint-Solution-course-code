@@ -1,0 +1,15 @@
+{
+  "page": "Northstar Search Center",
+  "web_parts": [
+    {"id": "search-box", "connects_to": "search-results", "data_flow": "query"},
+    {"id": "search-filters", "connects_to": "search-results", "filters": ["DocumentType", "Department"], "data_flow": "selected filter values"},
+    {"id": "search-verticals", "connects_to": "search-results", "options": ["Documents", "People"], "data_flow": "selected vertical"},
+    {"id": "search-results", "query_source": "SharePoint search"}
+  ],
+  "acceptance": [
+    "query reaches Search Results",
+    "Documents vertical returns document results",
+    "filters narrow visible results",
+    "results respect viewer permissions"
+  ]
+}
