@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/202209/ProvisioningSchema">
+  <pnp:Preferences Generator="BookToCourse" />
+  <pnp:Templates>
+    <pnp:ProvisioningTemplate ID="Northstar.Configuration" Version="1">
+      <pnp:Lists>
+        <pnp:ListInstance Title="Onboarding" Url="Lists/Onboarding" TemplateType="100" />
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>
