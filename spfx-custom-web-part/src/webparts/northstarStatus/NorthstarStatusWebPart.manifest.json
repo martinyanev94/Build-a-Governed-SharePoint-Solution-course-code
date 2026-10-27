@@ -1,0 +1,17 @@
+{
+  "id": "00000000-0000-4000-8000-000000000031",
+  "alias": "NorthstarStatusWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "preconfiguredEntries": [
+    {
+      "groupId": "00000000-0000-4000-8000-000000000001",
+      "group": { "default": "Northstar" },
+      "title": { "default": "Northstar status" },
+      "description": { "default": "Displays the Northstar portal status." },
+      "officeFabricIconFontName": "StatusCircleCheckmark",
+      "properties": { "title": "Northstar status" }
+    }
+  ]
+}
